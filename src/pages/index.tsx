@@ -63,7 +63,6 @@ HomeProps): ReactElement {
     );
     setNextPage(postResults.next_page);
     setCurrentPage(postResults.page);
-
     const newPosts = postResults.results.map(post => {
       return {
         uid: post.uid,
